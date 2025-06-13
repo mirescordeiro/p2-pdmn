@@ -1,6 +1,18 @@
-function App() {
+import { useState } from 'react';
+import Busca from './components/Busca';
+
+const App = () => {
+  const [listaPrevisoes, setListaPrevisoes] = useState([]);
+
+  function aoRealizarBusca(lista) {
+    setListaPrevisoes(lista);
+  }
+
   return (
-    <h1>Hello, P2</h1>
+    <div>
+      <Busca enviarResultadoBusca={aoRealizarBusca}/>
+      <p>{listaPrevisoes[0]}</p>
+    </div>
   )
 }
 
