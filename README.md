@@ -28,4 +28,9 @@ Tamires Gomes de Oliveira Cordeiro | 2040482313023
 18. Chama o backend com Axios
 19. Implementa regra de 2s para busca
 20. Envia lista de previsões para o App
+21. Cria componente de ListaPrevisoes
+22. Instala [striptags](https://github.com/ericnorris/striptags)
+23. Cria lista de previsões
+24. Implementa responsividade
+25. Adiciona tag v1.0.0
 
