@@ -12,7 +12,7 @@ Tamires Gomes de Oliveira Cordeiro | 2040482313023
 2.  Limpa arquivos de estilização
 3.  Instala [PrimeReact](https://primereact.org/installation/)
 4.  Instala [PrimeFlex](https://primeflex.org/installation#moduleloader)
-5.  Importa tema lara-dark-indigo e primeflex
+5.  Importa tema mira e primeflex
 6.  Adiciona pasta backend
 7.  Cria index.js
 8.  Instala [Axios](https://axios-http.com/docs/intro)
