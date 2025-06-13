@@ -21,4 +21,11 @@ Tamires Gomes de Oliveira Cordeiro | 2040482313023
 11. Cria endpoint `/busca`
 12. Retorna lista de previsões 
 13. Instala [cors](https://github.com/expressjs/cors#readme)
+14. Cria componente de Busca
+15. Importa Busca no App
+16. Cria utils backendClient
+17. Importa backendClient na Busca
+18. Chama o backend com Axios
+19. Implementa regra de 2s para busca
+20. Envia lista de previsões para o App
 
