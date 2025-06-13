@@ -19,6 +19,7 @@ app.get('/busca', async (req, res) => {
       q: nomeCidade,
       cnt: qtdPrevisoesMeteorologicas,
       lang: 'pt_br',
+      units: 'metric',
       appid: API_KEY,
     }
   });
@@ -26,11 +27,12 @@ app.get('/busca', async (req, res) => {
   const listaPrevisoes = resposta.data.list
     .map((previsao) => {
       return {
-        icone: previsao.weather[0].icon,
+        data: previsao.dt_txt,
         descricao: previsao.weather[0].description,
-        temp_min: previsao.main.temp_min,
-        temp_max: previsao.main.temp_max,
         humidade_ar: previsao.main.humidity,
+        icone: previsao.weather[0].icon,
+        temp_max: previsao.main.temp_max,
+        temp_min: previsao.main.temp_min,
       }
     });
 
