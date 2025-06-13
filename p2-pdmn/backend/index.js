@@ -27,7 +27,6 @@ app.get('/busca', async (req, res) => {
   const listaPrevisoes = resposta.data.list
     .map((previsao) => {
       return {
-        data: previsao.dt_txt,
         descricao: previsao.weather[0].description,
         humidade_ar: previsao.main.humidity,
         icone: previsao.weather[0].icon,
